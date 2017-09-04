@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <conio.h>
+
  
-int main(){
+void main(){
     char c;
     printf("Enter a Character: ");
     scanf("%c", &c);
@@ -11,6 +11,5 @@ int main(){
     } else {
         printf("%c is a Consonant\n", c);
     }
-    getch();
-    return 0;
+    
 }
